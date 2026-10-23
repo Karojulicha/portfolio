@@ -91,9 +91,9 @@ document.querySelectorAll('.tl-toggle').forEach(btn => {
 });
 
 /* ── EmailJS ──────────────────────────────────────────── */
-const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';   // ← reemplaza
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';  // ← reemplaza
-const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';   // ← reemplaza
+const EMAILJS_SERVICE_ID  = 'portafoli_mio';     // ✓ listo
+const EMAILJS_TEMPLATE_ID = 'template_3irnr6f';  // ✓ listo
+const EMAILJS_PUBLIC_KEY  = 'X1eCUObM8NYlMfHeJ'; // ✓ listo
 
 emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
