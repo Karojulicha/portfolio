@@ -118,6 +118,6 @@ form?.addEventListener('submit', e => {
       btnSend.disabled = false;
       btnText.textContent = 'Enviar mensaje';
       btnSend.querySelector('i').className = 'fas fa-paper-plane';
-      alert('Ocurrió un error al enviar. Intenta de nuevo o escríbeme directamente a karolgomez171@gmail.com');
+      alert('Ocurrió un error al enviar. Intenta de nuevo o escríbeme directamente a karol.chaparro171@gmail.com');
     });
 });

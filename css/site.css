@@ -868,6 +868,71 @@ a { text-decoration: none; }
 }
 .proj-link:hover { color: var(--accent); }
 
+/* ── Services ─────────────────────────────────────────── */
+.services { background: var(--bg); }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+.service-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  transition: all var(--ease);
+  display: flex;
+  flex-direction: column;
+}
+.service-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-a);
+  transform: translateY(-4px);
+}
+.srv-icon {
+  width: 48px; height: 48px;
+  background: var(--accent-10);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 1.1rem;
+}
+.srv-name { font-size: 1.05rem; font-weight: 700; margin-bottom: .55rem; }
+.srv-desc {
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+  flex: 1;
+}
+.srv-tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+.srv-tag {
+  font-size: .73rem;
+  background: var(--accent-10);
+  color: var(--accent);
+  padding: .2rem .6rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.services-cta {
+  margin-top: 2.5rem;
+  background: linear-gradient(135deg, var(--accent-10), var(--cyan-10));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2rem 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.services-cta h3 { font-size: 1.25rem; font-weight: 800; margin-bottom: .3rem; }
+.services-cta p  { color: var(--muted); font-size: .92rem; }
+
 /* ── Contact ──────────────────────────────────────────── */
 .contact { background: var(--bg-2); }
 .contact-grid {
