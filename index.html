@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Karol Chaparro – Fullstack Developer | Angular | .NET | React | Bogotá, Colombia" />
+    <title>Karol Chaparro – Fullstack Developer</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav class="nav" id="navbar">
+    <div class="nav-inner">
+        <a href="#hero" class="nav-logo">KC<span>.</span></a>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#education">Educación</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact" class="nav-cta">Contáctame</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero" class="hero">
+    <div class="hero-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-inner">
+        <!-- Text -->
+        <div class="hero-text">
+            <div class="hero-badge">
+                <span class="live-dot"></span>
+                Disponible para nuevos proyectos
+            </div>
+            <p class="hero-greeting">Hola, soy</p>
+            <h1 class="hero-name">Karol <span>Chaparro</span></h1>
+            <div class="hero-role">
+                <span class="typed"></span><span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-bio">
+                Fullstack Developer con más de 3 años construyendo aplicaciones web empresariales.
+                Especializada en Angular, React y .NET con fuerte enfoque en integración de sistemas
+                y arquitectura escalable.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-p">
+                    <i class="fas fa-rocket"></i> Ver Proyectos
+                </a>
+                <a href="#contact" class="btn-o">
+                    <i class="fas fa-paper-plane"></i> Contáctame
+                </a>
+                <a href="https://linkedin.com/in/karol-chaparro-gomez-developer"
+                   target="_blank" class="btn-ico" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:karolgomez171@gmail.com" class="btn-ico" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="hero-loc">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Bogotá, Colombia · Disponible remoto</span>
+            </div>
+        </div>
+
+        <!-- Code card -->
+        <div class="hero-visual">
+            <div class="code-card">
+                <div class="cc-header">
+                    <span class="cc-dot r"></span>
+                    <span class="cc-dot y"></span>
+                    <span class="cc-dot g"></span>
+                    <span class="cc-filename">developer.ts</span>
+                </div>
+                <div class="cc-body">
+                    <span class="ck">const</span> <span class="cv">developer</span> = {<br>
+                    &nbsp;&nbsp;<span class="cp">name</span>: <span class="cs">"Karol Chaparro"</span>,<br>
+                    &nbsp;&nbsp;<span class="cp">role</span>: <span class="cs">"Fullstack Developer"</span>,<br>
+                    &nbsp;&nbsp;<span class="cp">location</span>: <span class="cs">"Bogotá, CO"</span>,<br>
+                    &nbsp;&nbsp;<span class="cp">stack</span>: [<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="cs">"Angular"</span>, <span class="cs">"React"</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="cs">".NET"</span>, <span class="cs">"SQL"</span><br>
+                    &nbsp;&nbsp;],<br>
+                    &nbsp;&nbsp;<span class="cp">years</span>: <span class="cn">3</span>,<br>
+                    &nbsp;&nbsp;<span class="cp">available</span>: <span class="cb">true</span><br>
+                    };
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-hint">
+        <div class="mouse-frame"><div class="mouse-wheel"></div></div>
+        <span class="scroll-label">Scroll</span>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<section id="about" class="section about">
+    <div class="wrap">
+        <div class="about-grid">
+            <!-- Left: text -->
+            <div data-aos="fade-right">
+                <span class="tag"><i class="fas fa-user"></i> Sobre mí</span>
+                <h2 class="s-title">Construyo soluciones <span class="accent-text">que escalan</span></h2>
+                <div class="divider"></div>
+
+                <div class="about-text">
+                    <p>
+                        Soy una Fullstack Developer con más de 3 años de experiencia en el desarrollo de
+                        aplicaciones web empresariales y educativas utilizando Angular, React y .NET.
+                    </p>
+                    <p>
+                        Tengo experiencia en diseño e integración de APIs REST y GraphQL, construcción de
+                        consultas SQL avanzadas y MongoDB para desarrollo de procesos ETL. He participado
+                        en integraciones con sistemas SAP mediante servicios intermedios y flujos de
+                        transformación de datos, asegurando consistencia en entornos productivos.
+                    </p>
+                    <p>
+                        Trabajo en equipos ágiles con frontend, backend y producto, aplicando buenas
+                        prácticas de arquitectura, testing y mejora continua.
+                    </p>
+                </div>
+
+                <div class="highlights">
+                    <div class="hl-item">
+                        <div class="hl-icon"><i class="fas fa-language"></i></div>
+                        <div class="hl-text">
+                            <strong>Idiomas</strong>
+                            <span>Español Nativo · Inglés B1 Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="hl-item">
+                        <div class="hl-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="hl-text">
+                            <strong>Ubicación</strong>
+                            <span>Bogotá, Colombia · Trabajo remoto disponible</span>
+                        </div>
+                    </div>
+                    <div class="hl-item">
+                        <div class="hl-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="hl-text">
+                            <strong>Disponibilidad</strong>
+                            <span>Proyectos freelance · Empleo de tiempo completo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: stats -->
+            <div class="stats-grid" data-aos="fade-left" data-aos-delay="100">
+                <div class="stat-card">
+                    <div class="stat-num" data-count="3" data-suffix="+">0+</div>
+                    <div class="stat-lbl">Años de experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="10" data-suffix="+">0+</div>
+                    <div class="stat-lbl">Tecnologías</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="2">0</div>
+                    <div class="stat-lbl">Idiomas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" data-count="100" data-suffix="%">0%</div>
+                    <div class="stat-lbl">Compromiso</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+<section id="skills" class="section skills">
+    <div class="wrap">
+        <div data-aos="fade-up">
+            <span class="tag"><i class="fas fa-code"></i> Tecnologías</span>
+            <h2 class="s-title">Mi <span class="accent-text">Stack</span> Técnico</h2>
+            <div class="divider"></div>
+            <p class="s-desc">Las tecnologías que uso para construir soluciones robustas, escalables y bien integradas.</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-laptop-code"></i></div>
+                    <span class="sk-name">Frontend</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">Angular</span>
+                    <span class="sk-tag">React</span>
+                    <span class="sk-tag">TypeScript</span>
+                    <span class="sk-tag">JavaScript</span>
+                    <span class="sk-tag">HTML5</span>
+                    <span class="sk-tag">CSS3</span>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="80">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-server"></i></div>
+                    <span class="sk-name">Backend</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">.NET</span>
+                    <span class="sk-tag">C#</span>
+                    <span class="sk-tag">ASP.NET Core</span>
+                    <span class="sk-tag">REST API</span>
+                    <span class="sk-tag">GraphQL</span>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="160">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-database"></i></div>
+                    <span class="sk-name">Bases de Datos</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">SQL Server</span>
+                    <span class="sk-tag">T-SQL avanzado</span>
+                    <span class="sk-tag">MongoDB</span>
+                    <span class="sk-tag">ETL</span>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-plug"></i></div>
+                    <span class="sk-name">Integraciones</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">SAP Integration</span>
+                    <span class="sk-tag">API Integration</span>
+                    <span class="sk-tag">Data Transformation</span>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="80">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-flask"></i></div>
+                    <span class="sk-name">Testing</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">Pruebas Funcionales</span>
+                    <span class="sk-tag">Pruebas de Integración</span>
+                    <span class="sk-tag">Smoke Testing</span>
+                </div>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="160">
+                <div class="sk-header">
+                    <div class="sk-icon"><i class="fas fa-tools"></i></div>
+                    <span class="sk-name">Herramientas</span>
+                </div>
+                <div class="sk-tags">
+                    <span class="sk-tag">Git</span>
+                    <span class="sk-tag">Jira</span>
+                    <span class="sk-tag">Power BI</span>
+                    <span class="sk-tag">Agile / Scrum</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════ EXPERIENCE ════════════════════════ -->
+<section id="experience" class="section experience">
+    <div class="wrap">
+        <div data-aos="fade-up">
+            <span class="tag"><i class="fas fa-briefcase"></i> Trayectoria</span>
+            <h2 class="s-title">Mi <span class="accent-text">Experiencia</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- AtomCol – current (open by default) -->
+            <div class="tl-item open">
+                <div class="tl-dot current"></div>
+                <button class="tl-toggle" aria-expanded="true">
+                    <div class="tl-toggle-left">
+                        <div class="tl-date">
+                            Jun 2025 – Actualidad
+                            <span class="tl-now"><span class="live-dot"></span> Actual</span>
+                        </div>
+                        <div class="tl-role">Fullstack Developer</div>
+                        <div class="tl-company"><i class="fas fa-building"></i> AtomCol System SAS · Bogotá</div>
+                    </div>
+                    <i class="fas fa-chevron-down tl-chevron"></i>
+                </button>
+                <div class="tl-body">
+                    <ul class="tl-desc">
+                        <li>Desarrollo y mantenimiento de aplicaciones web empresariales en Angular y .NET.</li>
+                        <li>Diseño y consumo de APIs REST con Axios para integraciones internas y externas.</li>
+                        <li>Integración de procesos internos con sistemas SAP mediante servicios intermedios y flujos ETL.</li>
+                        <li>Transformación, validación y sincronización de datos para procesos productivos.</li>
+                        <li>Construcción de consultas SQL complejas para análisis y procesamiento de información.</li>
+                        <li>Implementación de nueva experiencia de usuario integrando API externa (InBox).</li>
+                        <li>Participación en migraciones de sistemas y mejora continua del producto.</li>
+                        <li>Soporte y resolución de incidencias en procesos integrados con SAP.</li>
+                        <li>Uso de herramientas de inteligencia artificial (Claude, ChatGPT, GitHub Copilot) para optimizar la escritura de código, depuración y mejora continua de funcionalidades.</li>
+                    </ul>
+                    <div class="tl-tags">
+                        <span class="tl-tech">Angular</span>
+                        <span class="tl-tech">.NET</span>
+                        <span class="tl-tech">SQL Server</span>
+                        <span class="tl-tech">SAP Integration</span>
+                        <span class="tl-tech">REST API</span>
+                        <span class="tl-tech">ETL</span>
+                        <span class="tl-tech">Axios</span>
+                        <span class="tl-tech">Claude AI</span>
+                        <span class="tl-tech">ChatGPT</span>
+                        <span class="tl-tech">GitHub Copilot</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heimcore – freelance -->
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <button class="tl-toggle" aria-expanded="false">
+                    <div class="tl-toggle-left">
+                        <div class="tl-date">
+                            Oct 2025 – Ene 2026
+                            <span class="tl-badge">Freelance</span>
+                        </div>
+                        <div class="tl-role">Frontend Developer</div>
+                        <div class="tl-company"><i class="fas fa-briefcase"></i> Heimcore · Remoto</div>
+                    </div>
+                    <i class="fas fa-chevron-down tl-chevron"></i>
+                </button>
+                <div class="tl-body">
+                    <ul class="tl-desc">
+                        <li>Desarrollo de aplicación web en Angular basada en prototipos de Figma.</li>
+                        <li>Construcción de componentes reutilizables y escalables.</li>
+                        <li>Consumo de endpoints del backend mediante HTTPClient y Axios.</li>
+                        <li>Integración con dashboards de Grafana.</li>
+                        <li>Coordinación técnica con equipo backend para definición de contratos de API.</li>
+                        <li>Aplicación de buenas prácticas de organización modular y mantenimiento.</li>
+                    </ul>
+                    <div class="tl-tags">
+                        <span class="tl-tech">Angular</span>
+                        <span class="tl-tech">TypeScript</span>
+                        <span class="tl-tech">Axios</span>
+                        <span class="tl-tech">Grafana</span>
+                        <span class="tl-tech">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ADA School -->
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <button class="tl-toggle" aria-expanded="false">
+                    <div class="tl-toggle-left">
+                        <div class="tl-date">May 2023 – Aug 2024</div>
+                        <div class="tl-role">Junior Fullstack Developer</div>
+                        <div class="tl-company"><i class="fas fa-building"></i> ADA School · Bogotá</div>
+                    </div>
+                    <i class="fas fa-chevron-down tl-chevron"></i>
+                </button>
+                <div class="tl-body">
+                    <ul class="tl-desc">
+                        <li>Desarrollo frontend y backend de aplicación web educativa.</li>
+                        <li>Implementación y consumo de APIs REST con Axios y GraphQL.</li>
+                        <li>Modelado y gestión de bases de datos relacionales.</li>
+                        <li>Implementación de pruebas funcionales, de integración y smoke testing.</li>
+                        <li>Optimización de rendimiento y resolución de incidencias.</li>
+                        <li>Mentoría técnica en fundamentos de desarrollo.</li>
+                    </ul>
+                    <div class="tl-tags">
+                        <span class="tl-tech">React</span>
+                        <span class="tl-tech">Node.js</span>
+                        <span class="tl-tech">GraphQL</span>
+                        <span class="tl-tech">REST API</span>
+                        <span class="tl-tech">SQL</span>
+                        <span class="tl-tech">Testing</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fifteen Hundred Consulting -->
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <button class="tl-toggle" aria-expanded="false">
+                    <div class="tl-toggle-left">
+                        <div class="tl-date">Jun 2022 – Jan 2023</div>
+                        <div class="tl-role">Programmer Analyst Trainee</div>
+                        <div class="tl-company"><i class="fas fa-globe"></i> Fifteen Hundred Consulting · Remoto · Brasil</div>
+                    </div>
+                    <i class="fas fa-chevron-down tl-chevron"></i>
+                </button>
+                <div class="tl-body">
+                    <ul class="tl-desc">
+                        <li>Adaptación de bases de datos para dashboards en Power BI.</li>
+                        <li>Implementación de pruebas funcionales e integración.</li>
+                        <li>Soporte en ajustes y mantenimiento de backend.</li>
+                        <li>Trabajo colaborativo en entorno internacional.</li>
+                    </ul>
+                    <div class="tl-tags">
+                        <span class="tl-tech">Power BI</span>
+                        <span class="tl-tech">SQL</span>
+                        <span class="tl-tech">Testing</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════ EDUCATION ════════════════════════ -->
+<section id="education" class="section education">
+    <div class="wrap">
+        <div data-aos="fade-up">
+            <span class="tag"><i class="fas fa-graduation-cap"></i> Formación</span>
+            <h2 class="s-title">Educación & <span class="accent-text">Aprendizaje</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <!-- Formal -->
+        <h3 class="edu-subtitle" data-aos="fade-up" data-aos-delay="50">Educación Formal</h3>
+        <div class="edu-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="edu-card">
+                <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="edu-body">
+                    <div class="edu-degree">Tecnología en Análisis y Desarrollo de Software</div>
+                    <div class="edu-school">SENA</div>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon"><i class="fas fa-brain"></i></div>
+                <div class="edu-body">
+                    <div class="edu-degree">Profesional en Psicología</div>
+                    <div class="edu-school">UNIMINUTO</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Complementary -->
+        <h3 class="edu-subtitle" data-aos="fade-up" data-aos-delay="50" style="margin-top:3rem">Formación Complementaria</h3>
+        <div class="courses-grid" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="course-card">
+                <div class="course-head">
+                    <div class="course-icon"><i class="fas fa-gamepad"></i></div>
+                    <div>
+                        <div class="course-name">Desarrollo de Videojuegos</div>
+                        <div class="course-source">Unity · C#</div>
+                    </div>
+                </div>
+                <ul class="course-topics">
+                    <li>Programación orientada a objetos</li>
+                    <li>Diseño de sistemas interactivos</li>
+                    <li>Lógica basada en eventos</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <div class="course-head">
+                    <div class="course-icon"><i class="fas fa-database"></i></div>
+                    <div>
+                        <div class="course-name">Fundamentos de Bases de Datos</div>
+                        <div class="course-source">Formación técnica</div>
+                    </div>
+                </div>
+                <ul class="course-topics">
+                    <li>Principios de modelado relacional</li>
+                    <li>Normalización</li>
+                    <li>Consultas SQL</li>
+                </ul>
+            </div>
+
+            <div class="course-card">
+                <div class="course-head">
+                    <div class="course-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <div class="course-name">Ciberseguridad</div>
+                        <div class="course-source">Universidad Distrital Francisco José de Caldas</div>
+                    </div>
+                </div>
+                <ul class="course-topics">
+                    <li>Seguridad informática</li>
+                    <li>Buenas prácticas en protección de sistemas</li>
+                    <li>Fundamentos de seguridad en aplicaciones</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════ PROJECTS ════════════════════════ -->
+<section id="projects" class="section projects">
+    <div class="wrap">
+        <div data-aos="fade-up">
+            <span class="tag"><i class="fas fa-rocket"></i> Portafolio</span>
+            <h2 class="s-title">Proyectos <span class="accent-text">Destacados</span></h2>
+            <div class="divider"></div>
+            <p class="s-desc">Próximamente con casos reales — mientras tanto, un vistazo a mi tipo de trabajo.</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="proj-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="proj-img"><i class="fas fa-layer-group"></i></div>
+                <div class="proj-body">
+                    <div class="proj-stack">
+                        <span class="proj-tech">Angular</span>
+                        <span class="proj-tech">.NET</span>
+                        <span class="proj-tech">SQL Server</span>
+                        <span class="proj-tech">SAP</span>
+                    </div>
+                    <h3 class="proj-name">Aplicación Empresarial</h3>
+                    <p class="proj-desc">
+                        Aplicación web con integración SAP y flujos ETL para transformación
+                        de datos en entornos productivos con alta disponibilidad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="proj-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="proj-img"><i class="fas fa-graduation-cap"></i></div>
+                <div class="proj-body">
+                    <div class="proj-stack">
+                        <span class="proj-tech">React</span>
+                        <span class="proj-tech">Node.js</span>
+                        <span class="proj-tech">MongoDB</span>
+                    </div>
+                    <h3 class="proj-name">Plataforma Educativa</h3>
+                    <p class="proj-desc">
+                        Plataforma educativa con gestión de cursos, seguimiento de progreso
+                        y panel de administración completo con autenticación por roles.
+                    </p>
+                </div>
+            </div>
+
+            <div class="proj-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="proj-img"><i class="fas fa-chart-line"></i></div>
+                <div class="proj-body">
+                    <div class="proj-stack">
+                        <span class="proj-tech">.NET</span>
+                        <span class="proj-tech">GraphQL</span>
+                        <span class="proj-tech">Power BI</span>
+                    </div>
+                    <h3 class="proj-name">API & Dashboard</h3>
+                    <p class="proj-desc">
+                        API con integración GraphQL y dashboard en Power BI para visualización
+                        de indicadores empresariales y métricas en tiempo real.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════ CONTACT ════════════════════════ -->
+<section id="contact" class="section contact">
+    <div class="wrap">
+        <div data-aos="fade-up">
+            <span class="tag"><i class="fas fa-paper-plane"></i> Contacto</span>
+            <h2 class="s-title">Trabajemos <span class="accent-text">Juntos</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Info -->
+            <div data-aos="fade-right">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>
+                        Estoy disponible para proyectos freelance y oportunidades de empleo.
+                        No dudes en escribirme — respondo en menos de 24 horas.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:karolgomez171@gmail.com" class="c-link">
+                            <div class="c-ico"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>karolgomez171&#64;gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/karol-chaparro-gomez-developer"
+                           target="_blank" class="c-link">
+                            <div class="c-ico"><i class="fab fa-linkedin-in"></i></div>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <span>karol-chaparro-gomez-developer</span>
+                            </div>
+                        </a>
+                        <a href="tel:+573013780475" class="c-link">
+                            <div class="c-ico"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <span>+57 301 378 0475</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div data-aos="fade-left" data-aos-delay="100">
+                <div class="form-card">
+                    <form id="contactForm">
+                        <div class="fg">
+                            <label class="flabel">Nombre</label>
+                            <input type="text" name="from_name" class="finput" placeholder="Tu nombre completo" required />
+                        </div>
+                        <div class="fg">
+                            <label class="flabel">Email</label>
+                            <input type="email" name="from_email" class="finput" placeholder="tu@email.com" required />
+                        </div>
+                        <div class="fg">
+                            <label class="flabel">Asunto</label>
+                            <input type="text" name="subject" class="finput" placeholder="¿Sobre qué quieres hablar?" />
+                        </div>
+                        <div class="fg">
+                            <label class="flabel">Mensaje</label>
+                            <textarea name="message" class="finput" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-send" id="btnSend">
+                            <i class="fas fa-paper-plane"></i>
+                            <span id="btnText">Enviar mensaje</span>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        ¡Mensaje enviado! Te responderé pronto.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════ FOOTER ════════════════════════ -->
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-copy">
+            © 2026 <span>Karol Chaparro</span> — Diseñado & desarrollado con pasión desde Bogotá
+        </p>
+        <div class="footer-socials">
+            <a href="https://linkedin.com/in/karol-chaparro-gomez-developer"
+               target="_blank" class="btn-ico" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:karolgomez171@gmail.com" class="btn-ico" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
